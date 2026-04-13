@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "engineering",
+    "name": "Software Engineering",
+    "description": "Software engineers design, build, and maintain software systems. The most in-demand role for visa sponsorship.",
+    "salaryRange": "$120,000 - $250,000",
+    "topSkills": ["Python", "JavaScript", "Go", "Java", "Kubernetes", "AWS"],
+    "topCompanies": ["Google", "Microsoft", "Amazon", "Meta", "Apple"],
+    "jobCount": 32
+  },
+  {
+    "slug": "design",
+    "name": "Product Design & UX",
+    "description": "Designers create user experiences for digital products. Strong visa sponsorship from top tech companies.",
+    "salaryRange": "$100,000 - $200,000",
+    "topSkills": ["Figma", "Sketch", "User Research", "Prototyping", "Design Systems"],
+    "topCompanies": ["Meta", "Adobe", "Figma", "Airbnb", "Qualcomm"],
+    "jobCount": 5
+  },
+  {
+    "slug": "product",
+    "name": "Product Management",
+    "description": "Product managers define product vision and strategy. Growing category for visa sponsorship.",
+    "salaryRange": "$120,000 - $220,000",
+    "topSkills": ["Product Strategy", "Roadmapping", "Data Analysis", "Agile", "SQL"],
+    "topCompanies": ["Google", "Meta", "Figma", "Lyft", "Linear"],
+    "jobCount": 4
+  },
+  {
+    "slug": "data",
+    "name": "Data Science & Analytics",
+    "description": "Data professionals analyze and derive insights from large datasets. High demand with strong visa sponsorship.",
+    "salaryRange": "$110,000 - $210,000",
+    "topSkills": ["Python", "SQL", "Machine Learning", "Spark", "TensorFlow", "R"],
+    "topCompanies": ["Google", "Amazon", "Uber", "Palantir", "Databricks"],
+    "jobCount": 5
+  },
+  {
+    "slug": "finance",
+    "name": "Finance & Consulting",
+    "description": "Finance and consulting professionals in tech companies. Solid visa sponsorship from major financial firms.",
+    "salaryRange": "$100,000 - $225,000",
+    "topSkills": ["Financial Modeling", "Excel", "SQL", "Python", "Bloomberg"],
+    "topCompanies": ["Goldman Sachs", "JPMorgan", "McKinsey", "Accenture", "Deloitte"],
+    "jobCount": 4
+  },
+  {
+    "slug": "marketing",
+    "name": "Marketing & Growth",
+    "description": "Marketing professionals drive user acquisition and brand awareness. Emerging category for visa sponsorship.",
+    "salaryRange": "$90,000 - $160,000",
+    "topSkills": ["Digital Marketing", "SEO", "Analytics", "Content Strategy", "Paid Ads"],
+    "topCompanies": ["HubSpot", "IBM", "Salesforce", "Lyft", "Uber"],
+    "jobCount": 2
+  }
+]
