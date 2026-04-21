@@ -10,6 +10,9 @@ import JobFilters from '@/components/JobFilters';
 import AdPlaceholder from '@/components/AdPlaceholder';
 import type { Metadata } from 'next';
 
+import { AdsterraNativeBanner } from '@/components/ads/AdsterraNativeBanner';
+import { AdsterraDisplay } from '@/components/ads/AdsterraDisplay';
+
 export async function generateMetadata({
   params,
 }: {
@@ -201,6 +204,8 @@ export default async function HomePage({
           </div>
         </div>
       </section>
+      <AdsterraNativeBanner />
+      <AdsterraDisplay />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         {/* Filters */}

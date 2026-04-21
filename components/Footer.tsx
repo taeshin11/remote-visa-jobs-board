@@ -78,6 +78,20 @@ export default function Footer({ locale }: FooterProps) {
           </div>
         </div>
 
+        {/* Secondary links row */}
+        <div className="border-t border-purple-50 mt-8 pt-6 flex flex-wrap gap-x-6 gap-y-2">
+          {[
+            { href: `/${locale}/about`, label: 'About' },
+            { href: `/${locale}/how-to-use`, label: 'How to Use / FAQ' },
+            { href: `/${locale}/privacy`, label: 'Privacy Policy' },
+            { href: `/${locale}/terms`, label: 'Terms of Use' },
+          ].map((link) => (
+            <Link key={link.href} href={link.href} className="text-xs text-gray-400 hover:text-[#7c3aed] transition-colors">
+              {link.label}
+            </Link>
+          ))}
+        </div>
+
         <div className="border-t border-purple-100 mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-400">
             © {currentYear} RemoteVisaJobsBoard. All rights reserved.

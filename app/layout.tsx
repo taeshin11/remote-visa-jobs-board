@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "WddgcbVJsL2BGHNAje5m6DK56IcR0Mw5UOqozI2Xtrc",
+  },
   title: "RemoteVisaJobsBoard — Remote Jobs with Visa Sponsorship",
   description: "Find remote jobs with visa sponsorship. Filter by country, role, and visa type. H1B, Skilled Worker, Blue Card and more.",
 };
